@@ -7,13 +7,13 @@ figure,
 p,
 ol,
 ul {
-	margin: 0;
+  margin: 0;
 }
 
-ol[role="list"],
-ul[role="list"] {
-	list-style: none;
-	padding-inline: 0;
+ol[role='list'],
+ul[role='list'] {
+  list-style: none;
+  padding-inline: 0;
 }
 
 h1,
@@ -21,177 +21,164 @@ h2,
 h3,
 h4,
 h5 {
-	font-size: inherit;
-	font-weight: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
-
-*{
-  
-    font-family: "Open Sans", sans-serif;
-    padding: 0;
-    margin: 0;
+* {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1140px;
-
+  margin: 0 auto;
+  width: 1140px;
 }
 
 :root {
-	--orange-color: #DEAA79;
+  --orange-color: #deaa79;
 }
 
 img {
-	display: block;
-	max-inline-size: 100%;
+  display: block;
+  max-inline-size: 100%;
 }
 
-body{
+body {
   min-width: 100%;
 }
 
-.promo{
-    background: url(../img/marcus-lofvenberg-LyghSgFG8QQ-unsplash.jpg)  center center / cover no-repeat;
-    min-height: 100vh;
-    max-width: 100%;
-    position: relative;
+.promo {
+  background: url(../img/marcus-lofvenberg-LyghSgFG8QQ-unsplash.jpg) center
+    center / cover no-repeat;
+  min-height: 100vh;
+  max-width: 100%;
+  position: relative;
 }
 
-.logo{
-
-    display: flex;
-    justify-content: center;
-    background: url(../img/wishlist\ _3.jpeg) no-repeat center center/cover; /* Подставьте ссылку на изображение */
-    opacity: 0.8;
-    width: 310px;
-    height: 280px;
-    font-size: 24px;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1; 
-    box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.62);
-    border:5px solid  rgba(255, 255, 255, 0.62) ;
+.logo {
+  display: flex;
+  justify-content: center;
+  background: url(../img/wishlist\ _3.jpeg) no-repeat center center/cover; /* Подставьте ссылку на изображение */
+  opacity: 0.8;
+  width: 310px;
+  height: 280px;
+  font-size: 24px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.62);
+  border: 5px solid rgba(255, 255, 255, 0.62);
 }
 
-.title{
-    margin-top: 20px;
-    font-size: 29px;
-    color: rgb(255, 255, 255);
-    text-shadow: 0px 2px 4px  rgba(0, 0, 0, 0.5);
+.title {
+  margin-top: 20px;
+  font-size: 29px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
-.wr h4{
-text-align: center;
-font-size: 20px;
-color: white;
-text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.wr .sun{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.wr h4 {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.wr .sun {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .menu-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    right: 20px;
-    z-index: 1;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 1;
 }
 
 .menu {
-    display: flex;
-    gap: 20px;
-    list-style-type: none;
-    font-size: 19px;
-    color: white;
-    
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  font-size: 19px;
+  color: white;
 }
-.menu a:hover{
+.menu a:hover {
   font-weight: 500;
-	box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.62);
+  box-shadow: 5px 5px 10px 0px rgba(255, 255, 255, 0.62);
 }
 
 .menu a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    transition: color 0.3s ease;
-    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.about-us {
+  position: relative;
+  padding: 20px;
+  min-height: 55vh;
+  background-color: #fefad1;
+}
 
-  
-  .about-us {
-    position: relative;
-    padding: 20px;
-    min-height: 55vh;
-    background-color: #fefad1;
+.about-us::before {
+  content: '';
+  background: url(../img/wishlist\ _3.jpeg) no-repeat center center/cover; /* Подставьте ссылку на изображение */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 85%;
+  width: 90%;
+  z-index: 1;
+  opacity: 0.7;
+  box-shadow: 5px 5px 5px 5px rgba(246, 139, 46, 0.819);
+  margin-top: 30px;
+}
 
-  }
-  
-  .about-us::before {
-    content: "";
-    background: url(../img/wishlist\ _3.jpeg) no-repeat center center/cover; /* Подставьте ссылку на изображение */
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 85%;
-    width: 90%;
-    z-index: 1;
-    opacity: 0.7;
-    box-shadow: 5px 5px 5px 5px rgba(246, 139, 46, 0.819);
-    margin-top: 30px;
-  }
-  
-  
-  .content {
-    margin-top: 50px;
-    position: relative;
-    z-index: 2; /* Текст сверху изображения */
-    color:white; /* Черный цвет текста */  
-  }
-  
-  .about-us h2 {
-    font-size: 34px;
-    margin: 0;
-    text-shadow: 0px 5px 4px rgba(182, 2, 2, 0.842);
-  }
-  
-  .about-us ul {
-    text-shadow: 0px 5px 4px rgb(162, 1, 1);
-    list-style-type: disc;
-    line-height: 1.8; /* Межстрочный интервал */
-    padding-left: 20px;
-    margin-top: 5px;
-    color: aliceblue;
-  }
-  
-  .about-us li {
-    font-size: 20px;
-    
-  }
+.content {
+  margin-top: 50px;
+  position: relative;
+  z-index: 2; /* Текст сверху изображения */
+  color: white; /* Черный цвет текста */
+}
 
-  .about__text{
-    text-shadow: 0px 5px 4px rgb(179, 4, 4); 
-    font-size: 17px;
-    margin-top: 5px;
-    
-  }
+.about-us h2 {
+  font-size: 34px;
+  margin: 0;
+  text-shadow: 0px 5px 4px rgba(182, 2, 2, 0.842);
+}
 
-.about__text span{
-    font-size: 19px;
+.about-us ul {
+  text-shadow: 0px 5px 4px rgb(162, 1, 1);
+  list-style-type: disc;
+  line-height: 1.8; /* Межстрочный интервал */
+  padding-left: 20px;
+  margin-top: 5px;
+  color: aliceblue;
+}
+
+.about-us li {
+  font-size: 20px;
+}
+
+.about__text {
+  text-shadow: 0px 5px 4px rgb(179, 4, 4);
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.about__text span {
+  font-size: 19px;
 }
 
 .rooms {
@@ -515,4 +502,3 @@ hr {
     height: 280px;
   }
 }
-
